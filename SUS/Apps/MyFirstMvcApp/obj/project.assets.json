@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
+      "projectUniqueName": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
       "projectName": "MyFirstMvcApp",
-      "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
+      "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
       "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
-      "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\Apps\\MyFirstMvcApp\\obj\\",
+      "outputPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\Apps\\MyFirstMvcApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.HTTP\\SUS.HTTP.csproj": {
-              "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.HTTP\\SUS.HTTP.csproj"
+            "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj"
             }
           }
         }

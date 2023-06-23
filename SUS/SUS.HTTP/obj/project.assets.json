@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
+      "projectUniqueName": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
       "projectName": "SUS.HTTP",
-      "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
+      "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
       "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
-      "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.HTTP\\obj\\",
+      "outputPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,12 @@
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\bin\Debug\net6.0\SUS.MvcFramework.deps.json
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\bin\Debug\net6.0\SUS.MvcFramework.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\bin\Debug\net6.0\SUS.MvcFramework.pdb
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.AssemblyInfo.cs
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\refint\SUS.MvcFramework.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.pdb
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\ref\SUS.MvcFramework.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UC3A4zRyKHTLUQkcQfVx0f5yx/2zQT+aNSdUobYtsyYtZCtP34t2qO6YPQSgA/kZBZqfW5vAuk3Nu4+qCtG3/w==",
+  "dgSpecHash": "IbLznuhldKgN6embzLEEexSKSpxpH34gwA97e9lnIwYMZd44b2xZAZ2yIDPGDxobQ6ScrxUl8gIZd5xEKNfmLA==",
   "success": true,
-  "projectFilePath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
+  "projectFilePath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

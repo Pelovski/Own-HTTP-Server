@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lwnfqtIexZJt2J7ElTrAWZiH0uLw18JLIqMxYLgYpmqOJsnOPl6PsGtBiBOkliW+a92kQFDfeLmOznwtME4t+w==",
+  "dgSpecHash": "+l/p7++NeQ6gO4AQAVsoNwH2V2qTEXYE2fiRTPGOZCreHHr57kdQW/qN5G7vz332qJMfgAStbDBsjzQXGxK38A==",
   "success": true,
-  "projectFilePath": "D:\\Pavel\\SoftUni\\C# Job prep\\Web Basic\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
+  "projectFilePath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
