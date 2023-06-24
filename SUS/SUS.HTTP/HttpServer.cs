@@ -77,11 +77,15 @@
                     var responseBodyBytes = Encoding.UTF8.GetBytes(responseHTML);
 
                     var response = new HttpResponse("text/html", responseBodyBytes);
+
+
+                    response.Cookies.Add(new ResponseCookie("sid", Guid.NewGuid().ToString())
+                    { HttpOnly = true, MaxAge = 60 * 24 * 60 * 60 });
+
                     response.Headers.Add(new Header("Server", "SUS Server 1.0"));
 
-                    var responseHeadersBytes = Encoding.UTF8.GetBytes(response.ToString());
-
-                    await stream.WriteAsync(responseHeadersBytes, 0, responseHeadersBytes.Length);
+                    var responseHeaderBytes = Encoding.UTF8.GetBytes(response.ToString());
+                    await stream.WriteAsync(responseHeaderBytes, 0, responseHeaderBytes.Length);
                     await stream.WriteAsync(response.Body, 0, response.Body.Length);
 
                 }
