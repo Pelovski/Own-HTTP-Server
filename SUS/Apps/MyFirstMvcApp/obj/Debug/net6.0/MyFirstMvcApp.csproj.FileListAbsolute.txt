@@ -34,3 +34,4 @@ D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\obj\Debug\net6.0\refint\
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\obj\Debug\net6.0\MyFirstMvcApp.pdb
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\obj\Debug\net6.0\MyFirstMvcApp.genruntimeconfig.cache
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\obj\Debug\net6.0\ref\MyFirstMvcApp.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\wwwroot\favicon.ico
