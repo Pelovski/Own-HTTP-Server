@@ -76,16 +76,13 @@
 
                     var responseBodyBytes = Encoding.UTF8.GetBytes(responseHTML);
 
-                    var responeHTTP = "HTTP/1.1 200 OK" + HttpConstants.NewLine +
-                                       "Server: SUS Server 1.0" + HttpConstants.NewLine +
-                                       "Content-Type: text/html" + HttpConstants.NewLine +
-                                       "Content-Length: " + responseBodyBytes.Length + HttpConstants.NewLine
-                                       + HttpConstants.NewLine;
+                    var response = new HttpResponse("text/html", responseBodyBytes);
+                    response.Headers.Add(new Header("Server", "SUS Server 1.0"));
 
-                    var responseHeadersBytes = Encoding.UTF8.GetBytes(responeHTTP);
+                    var responseHeadersBytes = Encoding.UTF8.GetBytes(response.ToString());
 
                     await stream.WriteAsync(responseHeadersBytes, 0, responseHeadersBytes.Length);
-                    await stream.WriteAsync(responseBodyBytes, 0, responseBodyBytes.Length);
+                    await stream.WriteAsync(response.Body, 0, response.Body.Length);
 
                 }
 
