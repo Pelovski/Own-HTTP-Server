@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/SUS.HTTP.dll": {}
         }
+      },
+      "SUS.MvcFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SUS.HTTP": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SUS.MvcFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SUS.MvcFramework.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../../SUS.HTTP/SUS.HTTP.csproj",
       "msbuildProject": "../../SUS.HTTP/SUS.HTTP.csproj"
+    },
+    "SUS.MvcFramework/1.0.0": {
+      "type": "project",
+      "path": "../../SUS.MvcFramework/SUS.MvcFramework.csproj",
+      "msbuildProject": "../../SUS.MvcFramework/SUS.MvcFramework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "SUS.HTTP >= 1.0.0"
+      "SUS.HTTP >= 1.0.0",
+      "SUS.MvcFramework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +74,9 @@
           "projectReferences": {
             "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj": {
               "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj"
+            },
+            "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj"
             }
           }
         }

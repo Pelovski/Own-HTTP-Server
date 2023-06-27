@@ -1,9 +1,16 @@
-﻿using System.Text;
-
-namespace SUS.HTTP
+﻿namespace SUS.HTTP
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
     public class HttpResponse
     {
+        public HttpResponse(HttpStatusCode statusCode)
+        {
+            this.StatusCode = statusCode;
+            this.Headers = new List<Header>();
+            this.Cookies = new List<Cookie>();
+        }
 
         public HttpResponse(string contentType, byte[] body, HttpStatusCode statusCode = HttpStatusCode.Ok)
         {
@@ -14,23 +21,19 @@ namespace SUS.HTTP
 
             this.StatusCode = statusCode;
             this.Body = body;
-
-            this.Headers = new List<Header>()
+            this.Headers = new List<Header>
             {
-                {new Header("Content-Type:", contentType) },
-                {new Header("Content-Length ", body.Length.ToString()) },
+                { new Header("Content-Type", contentType) },
+                { new Header("Content-Length", body.Length.ToString()) },
             };
-
             this.Cookies = new List<Cookie>();
         }
 
         public override string ToString()
         {
             StringBuilder responseBuilder = new StringBuilder();
-
             responseBuilder.Append($"HTTP/1.1 {(int)this.StatusCode} {this.StatusCode}" + HttpConstants.NewLine);
-
-            foreach (Header header in this.Headers)
+            foreach (var header in this.Headers)
             {
                 responseBuilder.Append(header.ToString() + HttpConstants.NewLine);
             }
@@ -44,6 +47,7 @@ namespace SUS.HTTP
 
             return responseBuilder.ToString();
         }
+
         public HttpStatusCode StatusCode { get; set; }
 
         public ICollection<Header> Headers { get; set; }

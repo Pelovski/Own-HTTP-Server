@@ -1,11 +1,12 @@
 ﻿namespace MyFirstMvcApp.Controllers
 {
     using SUS.HTTP;
+    using SUS.MvcFramework;
     using System.Text;
 
-    public class HomeController
+    public class HomeController : Controller
     {
-         HttpResponse Index(HttpRequest request)
+         public HttpResponse Index(HttpRequest request)
         {
             var responseHTML = "<h1>Welcome!</h1>" +
                                         request.Headers.FirstOrDefault(x => x.Name == "User-Agent")?.Value;
@@ -17,7 +18,7 @@
             return response;
         }
 
-         HttpResponse About(HttpRequest request)
+         public HttpResponse About(HttpRequest request)
         {
             var responseHTML = "<h1>About...!</h1>";
             var responseBodyBytes = Encoding.UTF8.GetBytes(responseHTML);

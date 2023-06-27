@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SUS.HTTP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SUS.HTTP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SUS.HTTP.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SUS.HTTP/1.0.0": {
+      "type": "project",
+      "path": "../SUS.HTTP/SUS.HTTP.csproj",
+      "msbuildProject": "../SUS.HTTP/SUS.HTTP.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SUS.HTTP >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\herrp\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\Own HTTP Server\\SUS\\SUS.HTTP\\SUS.HTTP.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
