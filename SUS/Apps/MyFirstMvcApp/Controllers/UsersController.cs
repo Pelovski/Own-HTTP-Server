@@ -2,7 +2,6 @@
 {
     using SUS.HTTP;
     using SUS.MvcFramework;
-    using System.Text;
 
     public class UsersController : Controller
     {
@@ -15,6 +14,10 @@
         {
             return this.View();
         }
-       
+
+        public HttpResponse DoLogin(HttpRequest arg)
+        {
+            return this.Redirect("/");
+        }
     }
 }
