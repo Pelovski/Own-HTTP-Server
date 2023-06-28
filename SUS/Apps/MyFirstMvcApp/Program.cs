@@ -1,27 +1,24 @@
 ﻿using System.Text;
 using MyFirstMvcApp.Controllers;
 using SUS.HTTP;
+using SUS.MvcFramework;
 
- class Program
+class Program
 {
      static async Task Main(string[] args)
     {
-        IHttpServer server = new HttpServer();
 
-       
+        List<Route> routeTable = new List<Route>();
 
-        server.AddRoute("/", new HomeController().Index);
-        server.AddRoute("/about", new HomeController().About);
-        server.AddRoute("/cards/add", new CarsController().Add);
-        server.AddRoute("/cards/all", new CarsController().All);
-        server.AddRoute("/users/login", new UsersController().Login);
-        server.AddRoute("/users/register", new UsersController().Register);
-        server.AddRoute("/favicon.ico", new StaticFileController().Favicon);
-        server.AddRoute("/cards/collection", new CarsController().Collection);
+        routeTable.Add(new Route("/", new HomeController().Index));
+        routeTable.Add(new Route("/about", new HomeController().About));
+        routeTable.Add(new Route("/cards/add", new CarsController().Add));
+        routeTable.Add(new Route("/cards/all", new CarsController().All));
+        routeTable.Add(new Route("/users/login", new UsersController().Login));
+        routeTable.Add(new Route("/users/register", new UsersController().Register));
+        routeTable.Add(new Route("/cards/collection", new CarsController().Collection));
 
-
-
-        await server.StartAsync(80);
+        await Host.CreateHostAsync(routeTable);
     }
 
 }

@@ -45,3 +45,4 @@ D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\C
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Cards\Collection.html
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Home\Index.html
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Home\﻿About.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Shared\_Layout.html
