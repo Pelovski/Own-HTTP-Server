@@ -12,9 +12,8 @@
             var layout = System.IO.File.ReadAllText("Views/Shared/_Layout.html");
             string callerClassName = this.GetType().Name.Replace("Controller", string.Empty);
 
-            var viewPath = $"Views/{callerClassName}/{callerMethodName}.html";
+            var viewContent = System.IO.File.ReadAllText($"Views/{callerClassName}/{callerMethodName}.html");
 
-            var viewContent = System.IO.File.ReadAllText(viewPath);
             var responseHtml = layout.Replace("@RenderBody()", viewContent);
             var responseBodyBytes = Encoding.UTF8.GetBytes(responseHtml);
             var response = new HttpResponse("text/html", responseBodyBytes);
@@ -26,8 +25,8 @@
         public HttpResponse File(string filePath, string contentType)
         {
 
-            var fileBytes = System.IO.File.ReadAllBytes("wwwroot/favicon.ico");
-            var response = new HttpResponse("image/vdn.microsoft.icon", fileBytes);
+            var fileBytes = System.IO.File.ReadAllBytes(filePath);
+            var response = new HttpResponse(contentType, fileBytes);
 
             return response;
 

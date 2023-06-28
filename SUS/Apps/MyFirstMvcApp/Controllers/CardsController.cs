@@ -1,9 +1,10 @@
 ﻿namespace MyFirstMvcApp.Controllers
 {
+    using System;
     using System.ComponentModel;
     using SUS.HTTP;
     using SUS.MvcFramework;
-    public class CarsController : Controller
+    public class CardsController : Controller
     {
         public HttpResponse Add(HttpRequest request)
         {
