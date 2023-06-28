@@ -10,3 +10,6 @@ D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFr
 D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\refint\SUS.MvcFramework.dll
 D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.pdb
 D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\ref\SUS.MvcFramework.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\bin\Debug\net6.0\SUS.HTTP.dll
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\bin\Debug\net6.0\SUS.HTTP.pdb
+D:\Pavel\SoftUni\Own HTTP Server\SUS\SUS.MvcFramework\obj\Debug\net6.0\SUS.MvcFramework.csproj.CopyComplete

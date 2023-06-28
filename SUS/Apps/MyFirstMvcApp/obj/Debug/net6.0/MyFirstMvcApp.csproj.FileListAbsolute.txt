@@ -38,3 +38,10 @@ D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\wwwroot
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\SUS.MvcFramework.dll
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\SUS.MvcFramework.pdb
 D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Users\Register.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Users\Login.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Controllers\CarsController.cs
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Cards\Add.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Cards\All.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Cards\Collection.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Home\Index.html
+D:\Pavel\SoftUni\Own HTTP Server\SUS\Apps\MyFirstMvcApp\bin\Debug\net6.0\Views\Home\﻿About.html
